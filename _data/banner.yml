@@ -1,17 +1,17 @@
 message:
-  show: true
+  show: false
   hitokoto: true
-  content: 江泽民同志逝世
-  detail: 享年96岁
+  content: 测试
+  detail: 通知测试
   color: black
   icon: monument
   image: false
-  link: https://mp.weixin.qq.com/s/v8Pe6SN1xtQTCBh8bVkwIQ
+  link: https://jzfx.de
 
 advertisement:
-  show: false
-  content: 学术精进 系统构建20K词汇体系
-  detail: 云英语VB词汇建造师
+  show: true
+  content: 推荐一款高性价比服务器：Racknerd，2核2G-$17.66/年
+  detail: 高性价比服务器
   color: black
-  icon: university
-  link: https://y-english.cn/
+  icon: server
+  link: https://my.racknerd.com/aff.php?aff=7939&pid=913
