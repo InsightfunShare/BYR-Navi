@@ -1,16 +1,16 @@
-- id: baidu
-  name: 百度
-  url: https://baidu.com/s?ie=utf-8&wd={query}
-  shortcut:
-    icon: paw blue inverted
-    style: black
-    show: true
-
 - id: google
   name: 谷歌
   url: https://google.com/search?q={query}
   shortcut:
     icon: google red inverted
+    style: black
+    show: true
+
+- id: baidu
+  name: 百度
+  url: https://baidu.com/s?ie=utf-8&wd={query}
+  shortcut:
+    icon: paw blue inverted
     style: black
     show: true
 
@@ -44,7 +44,7 @@
   shortcut:
     icon: shipping fast orange inverted
     style: black
-    show: false
+    show: true
 
 - id: baidunews
   name: 百度资讯
@@ -52,7 +52,7 @@
   shortcut:
     icon: newspaper blue inverted
     style: black
-    show: true
+    show: false
 
 - id: wikipedia
   name: 维基百科
@@ -68,7 +68,7 @@
   shortcut:
     icon: github
     style: black
-    show: false
+    show: true
 
 - id: stackoverflow
   name: Stack Overflow
@@ -100,7 +100,7 @@
   shortcut:
     icon: weibo red inverted
     style: black
-    show: true
+    show: false
 
 - id: weixinmp
   name: 微信公众号
@@ -108,7 +108,7 @@
   shortcut:
     icon: weixin green inverted
     style: black
-    show: false
+    show: true
 
 - id: weixinarticle
   name: 微信文章
@@ -124,7 +124,7 @@
   shortcut:
     icon: weixin green inverted
     style: black
-    show: false
+    show: true
 
 - id: baiduxueshu
   name: 百度学术
@@ -140,7 +140,7 @@
   shortcut:
     icon: graduation cap blue inverted
     style: black
-    show: false
+    show: true
 
 - id: ieeexplore
   name: IEEE Xplore
@@ -251,6 +251,14 @@
   url: https://youtube.com/results?search_query={query}
   shortcut:
     icon: youtube red inverted
+    style: black
+    show: true
+
+- id: linuxdo
+  name: Linux.do
+  url: https://linux.do/search?q={query}
+  shortcut:
+    icon: linux
     style: black
     show: true
 
