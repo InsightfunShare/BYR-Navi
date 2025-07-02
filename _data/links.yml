@@ -302,25 +302,17 @@
       style: orange
       url: https://t-rex.tzfile.com/
 
-    # - name: 弯弯
-    #   style: blue
-    #   url: http://wanwansub.com/node/139
+
 
     - name: SubHD
       style: blue
       url: https://subhd.tv/
 
-    # - name: 猪猪
-    #   style: purple
-    #   url: http://www.zzrbl.com/
 
     - name: TNH
       style: basic
       url: https://www.tnhzmz.com/
 
-    # - name: 幻月
-    #   style: basic
-    #   url: https://www.huanyuezmz.site/
 
     - name: 幻樱
       style: pink
@@ -331,7 +323,7 @@
       url: https://douyu.com/
 
 - categories:
-  - name: 北邮校园
+  - name: 邮箱
     links:
     - name: 北邮官网
       style: basic
@@ -357,13 +349,6 @@
       style: blue
       url: https://byr.pt/promotionlink.php?key=63030ce02da245eb152d2e8dc8dd6add
 
-    # - name: 北邮IPTV
-    #   style: basic
-    #   url: http://tv.byr.cn/
-
-    # - name: 信息门户
-    #   style: basic
-    #   url: http://my.bupt.edu.cn/
 
     - name: 图书馆
       style: basic
@@ -389,7 +374,7 @@
     #   style: basic
     #   url: http://buptclass.com/
 
-  - name: 校园助手
+  - name: AI聊天
     links:
     - name: 空余教室查询
       style: basic
@@ -451,7 +436,7 @@
       style: basic
       url: http://www.bupt.edu.cn/content/content.php?p=6_10_80
 
-  - name: 论坛相关
+  - name: AI绘画
     links:
     - name: 北邮人论坛
       style: teal
