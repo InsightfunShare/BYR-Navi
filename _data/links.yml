@@ -617,9 +617,9 @@
 
   - name: 在线求职
     links:
-    - name: 
+    - name: BOSS直聘
       style: basic
-      url: 
+      url: https://www.zhipin.com/changchun/?seoRefer=index
 
     - name: 这b班上得值不值·测算版
       style: basic
