@@ -99,10 +99,14 @@
     - name: 无界AI
       style: basic
       url: https://www.wujieai.com/   
-      
+
     - name: Adobe Firefly
       style: basic
       url: https://firefly.adobe.com/?media=featured
+
+    - name: 图片转像素图
+      style: basic
+      url: https://perlerbeads.zippland.com/
 
   - name: AI-Agent
     links:
@@ -118,9 +122,9 @@
       style: basic
       url: https://you.com/?chatMode=custom
 
-    - name: 
+    - name: Snap-Solver
       style: basic
-      url: 
+      url: https://snapsolver.zippland.com/
 
   - name: AI音视频
     links:
@@ -140,7 +144,64 @@
       style: basic
       url: https://studio.d-id.com/
 
-    
+    - name: Synthesia
+      style: basic
+      url: https://viggle.ai/home
+
+  - name: AI检测
+    links:
+    - name: GPTZero
+      style: basic
+      url: https://gptzero.me/
+
+    - name: 
+      style: basic
+      url: 
+
+    - name: 
+      style: basic
+      url: 
+
+    - name: 
+      style: basic
+      url: 
+
+  - name: AI搜索
+    links:
+    - name: SearX
+      style: basic
+      url: https://searx.space/
+
+    - name: Perplexity
+      style: basic
+      url: https://www.perplexity.ai/
+
+    - name: iAsk Pro
+      style: basic
+      url: https://iask.ai/
+
+    - name: 
+      style: basic
+      url: 
+
+  - name: AI编程
+    links:
+    - name: Trae
+      style: basic
+      url: https://www.trae.ai/home
+
+    - name: heyCLI
+      style: basic
+      url: https://www.heycli.com/
+
+    - name: GitHub Copilot
+      style: basic
+      url: https://github.com/features/copilot
+
+    - name: Windsurf
+      style: basic
+      url: https://windsurf.com/
+
   - name: AI
     links:
     - name: 
@@ -236,25 +297,7 @@
       style: basic
       url: https://www.dianping.com/
 
-    - name: 网易邮箱
-      icon: envelope red
-      style: basic
-      url: https://email.163.com/
 
-    - name: QQ邮箱
-      icon: qq black
-      style: basic
-      url: https://mail.qq.com/
-
-    - name: 新浪邮箱
-      icon: envelope red
-      style: basic
-      url: https://mail.sina.com.cn/
-
-    - name: Gmail
-      icon: google red
-      style: basic
-      url: https://mail.google.com/
 
     - name: 谷歌翻译
       icon: language blue
@@ -462,8 +505,6 @@
       style: orange
       url: https://t-rex.tzfile.com/
 
-
-
     - name: SubHD
       style: blue
       url: https://subhd.tv/
@@ -482,56 +523,113 @@
       style: orange
       url: https://douyu.com/
 
-- categories:
   - name: 邮箱
     links:
-    - name: 北邮官网
+    - name: Gmail
+      icon: google red
       style: basic
-      url: https://www.bupt.edu.cn/
+      url: https://mail.google.com/
 
-    # - name: 本科教务系统
-    #   style: basic
-    #   url: https://jwgl.bupt.edu.cn/jsxsd/
-
-    - name: 研究生教务系统
+    - name: Aol
+      icon: envelope yellow
       style: basic
-      url: http://yjxt.bupt.edu.cn/
-
-    - name: 教务处
+      url: https://mail.aol.com/
+    
+    - name: Outlook
+      icon: microsoft blue
       style: basic
-      url: http://jwc.bupt.edu.cn/
+      url: https://outlook.live.com/
 
-    - name: 北邮人论坛
+    - name: Yahoo Mail
+      icon: yahoo blue
       style: basic
-      url: https://bbs.byr.cn/
-
-    - name: 北邮人BT
-      style: blue
-      url: https://byr.pt/promotionlink.php?key=63030ce02da245eb152d2e8dc8dd6add
-
-
-    - name: 图书馆
+      url: https://mail.yahoo.com/
+    
+    - name: Proton Mail
+      icon: envelope black
       style: basic
-      url: http://lib.bupt.edu.cn/
+      url: https://proton.me/mail
 
-    - name: 北邮贴吧
+    - name: GMX Mail
+      icon: envelope black
       style: basic
-      url: http://tieba.baidu.com/f?kw=%B1%B1%BE%A9%D3%CA%B5%E7%B4%F3%D1%A7
-
-    - name: 校园网
+      url: https://www.gmx.com/mail/    
+      
+    - name: Ru Mail
+      icon: envelope black
       style: basic
-      url: http://nic.bupt.edu.cn/
+      url: https://mail.ru/
 
-    - name: 北邮邮箱
+    - name: Yandex Mail
+      icon: envelope black
       style: basic
-      url: http://mail.bupt.edu.cn/
+      url: https://360.yandex.com/mail/
 
-    # - name: VPN服务
-    #   style: basic
-    #   url: https://nic.bupt.edu.cn/list/list.php?p=5_13_1
+    - name: Mail
+      icon: envelope black
+      style: basic
+      url: https://www.mail.com/
 
-    # - name: 空闲自习室查询
-    #   style: basic
-    #   url: http://buptclass.com/
+    - name: QQ邮箱
+      icon: qq blue
+      style: basic
+      url: https://mail.qq.com/
 
+    - name: 新浪邮箱
+      icon: envelope black
+      style: basic
+      url: https://mail.sina.com.cn/
+
+    - name: 网易邮箱
+      icon: envelope red
+      style: basic
+      url: https://email.163.com/
+
+    - name: VIP-163
+      icon: envelope black
+      style: basic
+      url: https://vip.163.com/
+
+    - name: TEMP-Mail
+      icon: envelope black
+      style: basic
+      url: https://temp-mail.org/zh/
+
+    - name: Linshi-Mail
+      icon: envelope black
+      style: basic
+      url: https://www.linshi-email.com/
+
+    - name: etemp-Mail
+      icon: envelope black
+      style: basic
+      url: https://etempmail.com/
+
+    - name: Internxt-Mail
+      icon: envelope black
+      style: basic
+      url: https://internxt.com/zh/temporary-email      
+
+    - name: 2925邮箱
+      icon: envelope black
+      style: basic
+      url: https://2925.com/   
+
+  - name: 在线求职
+    links:
+    - name: 
+      style: basic
+      url: 
+
+    - name: 这b班上得值不值·测算版
+      style: basic
+      url: https://worthjob.zippland.com/
+
+    - name: 校招Offer求帮选
+      style: basic
+      url: https://offerselect.zippland.com/
+
+    - name: 城市Offer薪资对比工具
+      style: basic
+      url: https://citycompare.zippland.com/
 
