@@ -428,18 +428,6 @@
       style: basic
       url: https://edx.org/
 
-    - name: 学堂在线
-      style: basic
-      url: https://next.xuetangx.com/
-
-    - name: 优达学城
-      style: basic
-      url: https://cn.udacity.com/
-
-    - name: 云英语
-      style: black
-      url: https://www.y-english.org/
-
   - name: 娱乐
     links:
     - name: Youtube
