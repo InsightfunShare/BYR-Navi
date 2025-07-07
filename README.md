@@ -60,6 +60,8 @@ bundle install
 
 ```sh
 bundle exec jekyll serve
+bundle exec jekyll serve --baseurl=""
+
 ```
 
 7. Now browse to [http://localhost:4000][localhost-4000].

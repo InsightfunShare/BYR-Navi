@@ -3,7 +3,6 @@
     links:
     - name: ChatGPT
       style: black
-      icon: brain
       url: https://chatgpt.com/
 
     - name: Gemini
@@ -13,6 +12,10 @@
     - name: Grok
       style: basic
       url: https://grok.com/?referrer=website
+
+    - name: Claude
+      style: basic
+      url: https://claude.ai/new
 
     - name: HuggingChat
       style: basic
@@ -25,14 +28,6 @@
     - name: Mistral
       style: basic
       url: https://chat.mistral.ai/chat
-
-    - name: 通义千问
-      style: basic
-      url: https://www.tongyi.com/qianwen/
-
-    - name: 文心一言
-      style: basic
-      url: https://ernie.baidu.com/
 
     - name: Kimi
       style: basic
@@ -50,17 +45,13 @@
       style: basic
       url: https://www.doubao.com/chat
 
-    - name: 校园一卡通
+    - name: 通义千问
       style: basic
-      url: http://ecard.bupt.edu.cn/
+      url: https://www.tongyi.com/qianwen/
 
-    - name: 办公电话
+    - name: 文心一言
       style: basic
-      url: http://www.bupt.edu.cn/content/content.php?p=6_9_79
-
-    - name: 校历
-      style: basic
-      url: http://www.bupt.edu.cn/content/content.php?p=6_10_80
+      url: https://ernie.baidu.com/
 
   - name: AI绘画
     links:
@@ -154,18 +145,6 @@
       style: basic
       url: https://gptzero.me/
 
-    - name: 
-      style: basic
-      url: 
-
-    - name: 
-      style: basic
-      url: 
-
-    - name: 
-      style: basic
-      url: 
-
   - name: AI搜索
     links:
     - name: SearX
@@ -180,12 +159,12 @@
       style: basic
       url: https://iask.ai/
 
-    - name: 
-      style: basic
-      url: 
-
   - name: AI编程
-    links:
+    links:    
+    - name: Cursor
+      style: basic
+      url: https://www.cursor.com/
+
     - name: Trae
       style: basic
       url: https://www.trae.ai/home
@@ -201,24 +180,72 @@
     - name: Windsurf
       style: basic
       url: https://windsurf.com/
+    
+    - name: Aider
+      style: basic
+      url: https://aider.chat/#
 
-  - name: AI
+    - name: HTTPie
+      style: basic  
+      url: https://httpie.io/
+
+    - name: CodeGeeX
+      style: basic
+      url: https://codegeex.cn/  
+
+  - name: AI办公
     links:
-    - name: 
+    - name: DeepL
       style: basic
-      url: 
+      url: https://www.deepl.com/zh/translator
+    - name: AI提词器
+      style: basic
+      url: https://telepromptermirror.com/telepromptersoftware.htm
+  - name: AI开发
+    links:
+    - name: Ollama
+      style: basic
+      url: https://ollama.com/
 
-    - name: 
+    - name: API Proxy Service
       style: basic
-      url: 
+      url: https://api-proxy.me/
 
-    - name: 
+    - name: 硅基流动API
       style: basic
-      url: 
+      url: https://cloud.siliconflow.cn/playground/chat
 
-    - name: 
+    - name: DeepSeek Platform 
       style: basic
-      url: 
+      url: https://platform.deepseek.com/api_keys
+
+    - name: Baidu AI Studio
+      style: basic
+      url: https://aistudio.baidu.com/  
+
+    - name: OpenAI Platform
+      style: basic
+      url: https://platform.openai.com/docs/overview
+
+    - name: Google AI Studio
+      style: basic
+      url: https://aistudio.google.com/apikey
+
+    - name: LLM Leaderboard
+      style: basic
+      url: https://llm-stats.com/
+
+    - name: LLM API Leaderboard
+      style: basic
+      url: https://artificialanalysis.ai/leaderboards/providers
+
+  - name: AI-MCP
+    links:
+    - name: MCP Servers
+      style: basic
+      url: https://mcp.so/
+
+
 
   - name: 购物
     links:
@@ -297,8 +324,6 @@
       style: basic
       url: https://www.dianping.com/
 
-
-
     - name: 谷歌翻译
       icon: language blue
       style: basic
@@ -330,6 +355,34 @@
     # - name: MacWk
     #   style: basic
     #   url: https://macwk.com/
+  - name: 开源代码
+    links:
+    - name: GitHub
+      icon: github black
+      style: basic
+      url: https://github.com/
+    - name: Gitee
+      icon: gitlab red
+      style: basic
+      url: https://gitee.com/
+    - name: Gitcode
+      icon: gitlab red
+      style: basic
+      url: https://gitcode.com/
+    - name: Hugging Face
+      icon: gitlab yellow 
+      style: basic
+      url: https://huggingface.co/
+
+  - name: Serverless
+    links:
+    - name: Vercel
+      style: basic
+      url: https://vercel.com/
+
+    - name: Netlify
+      style: basic
+      url: https://app.netlify.com/
 
   - name: 社交
     links:
@@ -419,11 +472,6 @@
       style: basic
       url: https://www.tutorialspoint.com/
 
-    - name: Google Open Source
-      icon: code blue
-      style: basic
-      url: https://opensource.google.com/
-
     - name: EdX
       style: basic
       url: https://edx.org/
@@ -434,6 +482,10 @@
       icon: youtube red
       style: basic
       url: https://youtube.com/
+
+    - name: Netflix
+      style: basic
+      url: https://www.netflix.com/
 
     - name: 爱奇艺
       style: green
@@ -462,6 +514,10 @@
     - name: AcFun
       style: orange
       url: https://www.acfun.cn/
+
+    - name: Anfuns
+      style: pink
+      url: https://www.anfuns.cc/
 
     - name: 腾讯动漫
       style: basic
@@ -497,19 +553,22 @@
       style: blue
       url: https://subhd.tv/
 
-
-    - name: TNH
+    - name: 爱壹帆
       style: basic
-      url: https://www.tnhzmz.com/
+      url: https://www.yfsp.tv/
 
 
-    - name: 幻樱
+    - name: 网飞猫
       style: pink
-      url: http://www.hysub.net/
+      url: https://www.ncat21.com/
 
     - name: 斗鱼
       style: orange
       url: https://douyu.com/
+
+    - name: 虎牙
+      style: orange
+      url: https://huya.com/
 
   - name: 邮箱
     links:
