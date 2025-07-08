@@ -386,60 +386,72 @@
 
   - name: 社交
     links:
+    - name: X
+      icon: x black
+      style: basic
+      url: https://x.com/
+    - name: Discord
+      icon: discord purple
+      style: basic
+      url: https://discord.com/
+    - name: Telegram
+      icon: telegram blue
+      style: basic
+      url: https://web.telegram.org/
     - name: 微博
       icon: weibo red
       style: basic
       url: https://weibo.com/
-
     - name: 微信网页版
       icon: weixin green
       style: basic
       url: https://wx.qq.com/
-
     - name: 百度贴吧
       icon: paw blue
       style: basic
       url: https://tieba.baidu.com/
-
+    - name: Reddit
+      icon: reddit orange
+      style: basic
+      url: https://www.reddit.com/
+    - name: 抖音
+      icon: tiktok black
+      style: basic
+      url: https://www.douyin.com/
     - name: 知乎
       icon: zhihu blue
       style: basic
       url: https://www.zhihu.com/
-
     - name: Quora
       icon: quora red
       style: basic
       url: https://www.quora.com/
-
     - name: Facebook
       icon: facebook f blue
       style: basic
       url: https://www.facebook.com/
-
-    - name: Google+
-      icon: google plus g red
-      style: basic
-      url: https://plus.google.com/
-
     - name: Tumblr
       icon: tumblr blue
       style: basic
       url: https://www.tumblr.com/
-
     - name: Instagram
       icon: instagram pink
       style: basic
       url: https://www.instagram.com/
-
-    - name: GitHub
-      icon: github black
-      style: basic
-      url: https://github.com/
-
     - name: LinkedIn
       icon: linkedin blue
       style: basic
       url: https://www.linkedin.com/
+    - name: V2EX
+      style: basic
+      url: https://v2ex.com/
+    - name: Linux.do
+      icon: linux
+      style: basic
+      url: https://linux.do/
+    - name: 奶昔论坛
+      style: basic
+      url: https://forum.naixi.net/forum.php
 
   - name: 学习
     links:
@@ -476,99 +488,7 @@
       style: basic
       url: https://edx.org/
 
-  - name: 娱乐
-    links:
-    - name: Youtube
-      icon: youtube red
-      style: basic
-      url: https://youtube.com/
 
-    - name: Netflix
-      style: basic
-      url: https://www.netflix.com/
-
-    - name: 爱奇艺
-      style: green
-      url: https://iqiyi.com/
-
-    - name: 芒果
-      style: orange
-      url: http://mgtv.com/
-
-    - name: 咪咕视频
-      style: pink
-      url: https://pink.miguvideo.com/
-
-    - name: 腾讯视频
-      style: basic
-      url: https://v.qq.com/
-
-    - name: 优酷
-      style: basic
-      url: https://youku.com/
-
-    - name: 哔哩哔哩
-      style: pink
-      url: https://bilibili.com/
-
-    - name: AcFun
-      style: orange
-      url: https://www.acfun.cn/
-
-    - name: Anfuns
-      style: pink
-      url: https://www.anfuns.cc/
-
-    - name: 腾讯动漫
-      style: basic
-      url: https://ac.qq.com/
-
-    - name: 豆瓣电影
-      icon: film blue
-      style: basic
-      url: https://movie.douban.com/
-
-    - name: FIX
-      style: yellow
-      url: https://www.zimuxia.cn/%e6%88%91%e4%bb%ac%e7%9a%84%e4%bd%9c%e5%93%81
-
-    - name: FIX
-      icon: file excel green
-      style: basic
-      url: https://docs.qq.com/sheet/DWk5KcXdUam1XVFhS
-
-    - name: NEW
-      style: basic
-      url: https://nz99.xyz/tvslist.html
-
-    - name: 人人
-      style: blue
-      url: https://www.rrdynb.com/index.html
-
-    - name: 团长
-      style: orange
-      url: https://t-rex.tzfile.com/
-
-    - name: SubHD
-      style: blue
-      url: https://subhd.tv/
-
-    - name: 爱壹帆
-      style: basic
-      url: https://www.yfsp.tv/
-
-
-    - name: 网飞猫
-      style: pink
-      url: https://www.ncat21.com/
-
-    - name: 斗鱼
-      style: orange
-      url: https://douyu.com/
-
-    - name: 虎牙
-      style: orange
-      url: https://huya.com/
 
   - name: 邮箱
     links:
@@ -576,94 +496,140 @@
       icon: google red
       style: basic
       url: https://mail.google.com/
-
     - name: Aol
       icon: envelope yellow
       style: basic
-      url: https://mail.aol.com/
-    
+      url: https://mail.aol.com/    
     - name: Outlook
       icon: microsoft blue
       style: basic
       url: https://outlook.live.com/
-
-    - name: Yahoo Mail
-      icon: yahoo blue
-      style: basic
-      url: https://mail.yahoo.com/
-    
-    - name: Proton Mail
-      icon: envelope black
-      style: basic
-      url: https://proton.me/mail
-
-    - name: GMX Mail
-      icon: envelope black
-      style: basic
-      url: https://www.gmx.com/mail/    
-      
-    - name: Ru Mail
-      icon: envelope black
-      style: basic
-      url: https://mail.ru/
-
-    - name: Yandex Mail
-      icon: envelope black
-      style: basic
-      url: https://360.yandex.com/mail/
-
-    - name: Mail
-      icon: envelope black
-      style: basic
-      url: https://www.mail.com/
-
     - name: QQ邮箱
       icon: qq blue
       style: basic
       url: https://mail.qq.com/
-
-    - name: 新浪邮箱
-      icon: envelope black
-      style: basic
-      url: https://mail.sina.com.cn/
-
     - name: 网易邮箱
       icon: envelope red
       style: basic
       url: https://email.163.com/
-
+    - name: Yahoo Mail
+      icon: yahoo blue
+      style: basic
+      url: https://mail.yahoo.com/    
     - name: VIP-163
       icon: envelope black
       style: basic
       url: https://vip.163.com/
-
+    - name: Proton Mail
+      icon: envelope black
+      style: basic
+      url: https://proton.me/mail
+    - name: GMX Mail
+      icon: envelope black
+      style: basic
+      url: https://www.gmx.com/mail/          
+    - name: Ru Mail
+      icon: envelope black
+      style: basic
+      url: https://mail.ru/
+    - name: Yandex Mail
+      icon: envelope black
+      style: basic
+      url: https://360.yandex.com/mail/
+    - name: Mail
+      icon: envelope black
+      style: basic
+      url: https://www.mail.com/
+    - name: 新浪邮箱
+      icon: envelope black
+      style: basic
+      url: https://mail.sina.com.cn/
     - name: TEMP-Mail
       icon: envelope black
       style: basic
       url: https://temp-mail.org/zh/
-
     - name: Linshi-Mail
       icon: envelope black
       style: basic
       url: https://www.linshi-email.com/
-
     - name: etemp-Mail
       icon: envelope black
       style: basic
       url: https://etempmail.com/
-
     - name: Internxt-Mail
       icon: envelope black
       style: basic
       url: https://internxt.com/zh/temporary-email      
-
     - name: 2925邮箱
       icon: envelope black
       style: basic
       url: https://2925.com/   
+  - name: 娱乐
+    links:
+    - name: Youtube
+      icon: youtube red
+      style: basic
+      url: https://youtube.com/
+    - name: 哔哩哔哩
+      style: pink
+      url: https://bilibili.com/    
+    - name: Netflix
+      style: basic
+      url: https://www.netflix.com/
+    - name: 爱奇艺
+      style: basic
+      url: https://iqiyi.com/
+    - name: 芒果
+      style: basic
+      url: http://mgtv.com/
+    - name: 咪咕视频
+      style: basic
+      url: https://pink.miguvideo.com/
+    - name: 腾讯视频
+      style: basic
+      url: https://v.qq.com/
+    - name: 优酷
+      style: basic
+      url: https://youku.com/
+    - name: Anfuns
+      style: basic
+      url: https://www.anfuns.cc/
+    - name: AcFun
+      style: basic
+      url: https://www.acfun.cn/
+    - name: 腾讯动漫
+      style: basic
+      url: https://ac.qq.com/
+    - name: 豆瓣电影
+      style: basic
+      url: https://movie.douban.com/
+    - name: 人人
+      style: basic
+      url: https://www.rrdynb.com/index.html
+    - name: SubHD
+      style: basic
+      url: https://subhd.tv/
+    - name: 爱壹帆
+      style: basic
+      url: https://www.yfsp.tv/
+    - name: 网飞猫
+      style: basic
+      url: https://www.ncat21.com/
+    - name: 斗鱼
+      style: basic
+      url: https://douyu.com/
+    - name: 虎牙
+      style: basic
+      url: https://huya.com/
 
   - name: 在线求职
     links:
+    - name: Offershow
+      style: basic
+      url: https://offershow.cn/
+    - name: 智联招聘
+      style: basic
+      url: https://www.zhaopin.com/
     - name: BOSS直聘
       style: basic
       url: https://www.zhipin.com/changchun/?seoRefer=index
@@ -679,4 +645,6 @@
     - name: 城市Offer薪资对比工具
       style: basic
       url: https://citycompare.zippland.com/
-
+    - name: 张大妈薪资计算器
+      style: green
+      url: https://hizdm.cn/
